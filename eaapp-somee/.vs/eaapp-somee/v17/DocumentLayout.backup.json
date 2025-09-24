@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ADragu\\source\\repos\\udemy\\Selenium with C#\\eaapp-somee-test\\eaapp-somee\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{33ECD471-BF8B-4116-A0F7-B5182D371E18}|eaapp-somee.csproj|c:\\users\\adragu\\source\\repos\\udemy\\selenium with c#\\eaapp-somee-test\\eaapp-somee\\tests\\headertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33ECD471-BF8B-4116-A0F7-B5182D371E18}|eaapp-somee.csproj|solutionrelative:tests\\headertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33ECD471-BF8B-4116-A0F7-B5182D371E18}|eaapp-somee.csproj|c:\\users\\adragu\\source\\repos\\udemy\\selenium with c#\\eaapp-somee-test\\eaapp-somee\\pages\\components\\header.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33ECD471-BF8B-4116-A0F7-B5182D371E18}|eaapp-somee.csproj|solutionrelative:pages\\components\\header.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33ECD471-BF8B-4116-A0F7-B5182D371E18}|eaapp-somee.csproj|c:\\users\\adragu\\source\\repos\\udemy\\selenium with c#\\eaapp-somee-test\\eaapp-somee\\utils\\custommethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33ECD471-BF8B-4116-A0F7-B5182D371E18}|eaapp-somee.csproj|solutionrelative:utils\\custommethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 231,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HeaderTest.cs",
+              "DocumentMoniker": "C:\\Users\\ADragu\\source\\repos\\udemy\\Selenium with C#\\eaapp-somee-test\\eaapp-somee\\tests\\HeaderTest.cs",
+              "RelativeDocumentMoniker": "tests\\HeaderTest.cs",
+              "ToolTip": "C:\\Users\\ADragu\\source\\repos\\udemy\\Selenium with C#\\eaapp-somee-test\\eaapp-somee\\tests\\HeaderTest.cs*",
+              "RelativeToolTip": "tests\\HeaderTest.cs*",
+              "ViewState": "AgIAACoAAAAAAAAAAAAcwEIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T15:22:33.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomMethods.cs",
+              "DocumentMoniker": "C:\\Users\\ADragu\\source\\repos\\udemy\\Selenium with C#\\eaapp-somee-test\\eaapp-somee\\utils\\CustomMethods.cs",
+              "RelativeDocumentMoniker": "utils\\CustomMethods.cs",
+              "ToolTip": "C:\\Users\\ADragu\\source\\repos\\udemy\\Selenium with C#\\eaapp-somee-test\\eaapp-somee\\utils\\CustomMethods.cs",
+              "RelativeToolTip": "utils\\CustomMethods.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T15:14:41.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Header.cs",
+              "DocumentMoniker": "C:\\Users\\ADragu\\source\\repos\\udemy\\Selenium with C#\\eaapp-somee-test\\eaapp-somee\\pages\\components\\Header.cs",
+              "RelativeDocumentMoniker": "pages\\components\\Header.cs",
+              "ToolTip": "C:\\Users\\ADragu\\source\\repos\\udemy\\Selenium with C#\\eaapp-somee-test\\eaapp-somee\\pages\\components\\Header.cs",
+              "RelativeToolTip": "pages\\components\\Header.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA/wBYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T15:06:48.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
