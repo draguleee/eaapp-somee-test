@@ -1,0 +1,195 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Simple Form Demo</title>
+    <style>
+        :root {
+            font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background: #f7f7fb;
+            margin: 0;
+            padding: 2rem;
+            display: grid;
+            place-items: start center;
+        }
+
+        .card {
+            background: white;
+            width: min(720px, 100%);
+            padding: 1.5rem;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0,0,0,.06);
+        }
+
+        h1 {
+            margin: 0 0 1rem;
+            font-size: 1.5rem;
+        }
+
+        form {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .row {
+            display: grid;
+            gap: .5rem;
+        }
+
+        label {
+            font-weight: 600;
+        }
+
+        input[type="text"], input[type="email"], input[type="password"], select, button {
+            padding: .6rem .75rem;
+            border-radius: .6rem;
+            border: 1px solid #dcdce6;
+            background: #fff;
+            font-size: 1rem;
+        }
+
+            select[multiple] {
+                height: 7.5rem;
+            }
+
+        fieldset {
+            border: 1px solid #e6e6ef;
+            padding: .75rem 1rem 1rem;
+            border-radius: .6rem;
+        }
+
+            fieldset legend {
+                font-weight: 700;
+                padding: 0 .25rem;
+            }
+
+        .options {
+            display: grid;
+            gap: .5rem;
+            margin-top: .5rem;
+        }
+
+        .actions {
+            display: flex;
+            gap: .75rem;
+            align-items: center;
+        }
+
+        button[type="submit"] {
+            background: #0f62fe;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            font-weight: 700;
+        }
+
+            button[type="submit"]:hover {
+                filter: brightness(0.95);
+            }
+
+        .note {
+            color: #555;
+            font-size: .9rem;
+        }
+    </style>
+</head>
+<body>
+    <main class="card" role="main">
+        <h1>Simple Web Form</h1>
+        <p class="note">All elements requested are included below. Fields marked with * are required.</p>
+
+        <form id="demo-form" onsubmit="handleSubmit(event)">
+            <!-- Two textboxes: email and password -->
+            <div class="row">
+                <label for="email">Email *</label>
+                <input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required />
+            </div>
+
+            <div class="row">
+                <label for="password">Password *</label>
+                <input id="password" name="password" type="password" placeholder="••••••••" autocomplete="new-password" required />
+            </div>
+
+            <!-- A dropdown with 3–5 values -->
+            <div class="row">
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="" selected disabled>Choose a country</option>
+                    <option value="ro">Romania</option>
+                    <option value="de">Germany</option>
+                    <option value="uk">United Kingdom</option>
+                    <option value="us">United States</option>
+                    <option value="es">Spain</option>
+                </select>
+            </div>
+
+            <!-- A multi-select box with 3–5 values -->
+            <div class="row">
+                <label for="skills">Skills (multi‑select)</label>
+                <select id="skills" name="skills" multiple>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="js">JavaScript</option>
+                    <option value="python">Python</option>
+                    <option value="java">Java</option>
+                </select>
+                <small class="note">Hold Ctrl/Cmd (or Shift) to select multiple.</small>
+            </div>
+
+            <!-- A list of checkboxes (3) -->
+            <fieldset>
+                <legend>Preferences</legend>
+                <div class="options" role="group" aria-labelledby="prefs">
+                    <label><input type="checkbox" name="pref_newsletter" value="yes" /> Subscribe to newsletter</label>
+                    <label><input type="checkbox" name="pref_updates" value="yes" /> Product updates</label>
+                    <label><input type="checkbox" name="pref_marketing" value="yes" /> Marketing emails</label>
+                </div>
+            </fieldset>
+
+            <!-- Two radio buttons -->
+            <fieldset>
+                <legend>Contact Method</legend>
+                <div class="options">
+                    <label><input type="radio" name="contact" value="email" checked /> Email</label>
+                    <label><input type="radio" name="contact" value="phone" /> Phone</label>
+                </div>
+            </fieldset>
+
+            <!-- Submit button -->
+            <div class="actions">
+                <button type="submit">Submit</button>
+                <span id="status" class="note" role="status" aria-live="polite"></span>
+            </div>
+        </form>
+    </main>
+
+    <script>
+        function handleSubmit(e) {
+            e.preventDefault();
+            const form = e.target;
+            const data = new FormData(form);
+            // For multi-select, collect all values
+            const selectedSkills = Array.from(form.skills.selectedOptions).map(o => o.value);
+            const payload = {
+                email: data.get('email'),
+                password: data.get('password'),
+                country: data.get('country'),
+                skills: selectedSkills,
+                preferences: {
+                    newsletter: data.get('pref_newsletter') === 'yes',
+                    updates: data.get('pref_updates') === 'yes',
+                    marketing: data.get('pref_marketing') === 'yes'
+                },
+                contact: data.get('contact')
+            };
+            document.getElementById('status').textContent = 'Submitted! Open console to see data.';
+            console.log('Form submission', payload);
+            form.reset();
+        }
+    </script>
+</body>
+</html>
