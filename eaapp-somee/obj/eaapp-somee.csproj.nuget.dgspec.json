@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ADragu\\source\\repos\\udemy\\Selenium with C#\\eaapp-somee-test\\eaapp-somee\\eaapp-somee.csproj": {}
+    "C:\\Users\\aandr\\source\\repos\\eaapp-somee-test\\eaapp-somee\\eaapp-somee.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ADragu\\source\\repos\\udemy\\Selenium with C#\\eaapp-somee-test\\eaapp-somee\\eaapp-somee.csproj": {
+    "C:\\Users\\aandr\\source\\repos\\eaapp-somee-test\\eaapp-somee\\eaapp-somee.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADragu\\source\\repos\\udemy\\Selenium with C#\\eaapp-somee-test\\eaapp-somee\\eaapp-somee.csproj",
+        "projectUniqueName": "C:\\Users\\aandr\\source\\repos\\eaapp-somee-test\\eaapp-somee\\eaapp-somee.csproj",
         "projectName": "eaapp-somee",
-        "projectPath": "C:\\Users\\ADragu\\source\\repos\\udemy\\Selenium with C#\\eaapp-somee-test\\eaapp-somee\\eaapp-somee.csproj",
-        "packagesPath": "C:\\Users\\ADragu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADragu\\source\\repos\\udemy\\Selenium with C#\\eaapp-somee-test\\eaapp-somee\\obj\\",
+        "projectPath": "C:\\Users\\aandr\\source\\repos\\eaapp-somee-test\\eaapp-somee\\eaapp-somee.csproj",
+        "packagesPath": "C:\\Users\\aandr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aandr\\source\\repos\\eaapp-somee-test\\eaapp-somee\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ADragu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aandr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -104,7 +103,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

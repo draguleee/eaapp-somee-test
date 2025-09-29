@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("eaapp-somee")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d60161fb1c949dc823ecdf5638d52d9415cfba5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+875f7db8afdcbf3d67235780c44dd9dd97c19be1")]
 [assembly: System.Reflection.AssemblyProductAttribute("eaapp-somee")]
 [assembly: System.Reflection.AssemblyTitleAttribute("eaapp-somee")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

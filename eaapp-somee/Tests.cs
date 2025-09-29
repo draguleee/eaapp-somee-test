@@ -58,33 +58,29 @@ namespace eaapp_somee
         public void SampleWebpage()
         {
             // 1. Create a new instance of Selenium WebDriver and navigate to the local HTML file
-            IWebDriver driver = new ChromeDriver();
-            driver.Navigate().GoToUrl("file:///C:/Users/ADragu/source/repos/udemy/Selenium%20with%20C%23/eaapp-somee-test/eaapp-somee/webpages/index.html");
+            var driver = new ChromeDriver();
+            string baseDir = AppDomain.CurrentDomain.BaseDirectory;
+            string fullPath = Path.Combine(baseDir, "..", "..", "..", "webpages", "index.html");
+            driver.Navigate().GoToUrl(new Uri(fullPath).AbsoluteUri);
             driver.Manage().Window.Maximize();
 
             // 2. Find the Email and Password fields and enter credentials
-            driver.FindElement(By.Id("email")).SendKeys("test@example.com");
-            driver.FindElement(By.Id("password")).SendKeys("password");
+            var emailField = driver.FindElement(By.Id("email"));
+            emailField.EnterText("test@example.com");
+            var passwordField = driver.FindElement(By.Id("password"));
+            passwordField.EnterText("password");
 
             // 3. Select an option from the dropdown
-            IWebElement country = driver.FindElement(By.Id("country"));
-            SelectElement countryDropdown = new SelectElement(country);
-            countryDropdown.SelectByText("Romania");
+            var country = driver.FindElement(By.Id("country"));
+            country.SelectDropdown("Romania", "text");
 
             // 4. Select one or more options from the multi-select list
-            IWebElement skills = driver.FindElement(By.Id("skills"));
-            SelectElement skillsDropdown = new SelectElement(skills);
-            skillsDropdown.SelectByValue("html");
-            skillsDropdown.SelectByValue("css");
-            skillsDropdown.SelectByValue("js");
+            var skills = driver.FindElement(By.Id("skills"));
+            skills.MultiSelect([ "html", "css", "js" ], "value");
 
             // 5. Print all selected options from the multi-select list
-            IList<IWebElement> options = skillsDropdown.AllSelectedOptions;
-            Console.Write("Selected options: ");
-            foreach (var option in options)
-            {
-                Console.Write(option.Text + " ");
-            }
+            var selectedOptions = skills.GetSelectedOptions();
+            Console.WriteLine("Selected skills: " + string.Join(", ", selectedOptions));
 
             // 6. Select all checkboxes
             driver.FindElement(By.Name("pref_newsletter")).Click();
@@ -92,19 +88,19 @@ namespace eaapp_somee
             driver.FindElement(By.Name("pref_marketing")).Click();
 
             // 7. Select one of the radio buttons
-            IWebElement email = driver.FindElement(By.XPath("//input[@value='email']"));
-            IWebElement phone = driver.FindElement(By.XPath("//input[@value='phone']"));
+            var email = driver.FindElement(By.XPath("//input[@value='email']"));
+            var phone = driver.FindElement(By.XPath("//input[@value='phone']"));
             if (email.Selected)
             {
-                phone.Click();
+                phone.ClickElement();
             } else
             {
-                email.Click();
+                email.ClickElement();
             }
 
             // 8. Click the Submit button
             driver.FindElement(By.XPath("//button[@type='submit']")).Submit();
-            IWebElement status = driver.FindElement(By.Id("status"));
+            var status = driver.FindElement(By.Id("status"));
             Assert.That(status.Displayed, Is.True, "Form submission failed.");
 
         }

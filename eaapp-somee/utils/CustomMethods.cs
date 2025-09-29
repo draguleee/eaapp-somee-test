@@ -1,6 +1,4 @@
-﻿using NUnit.Framework.Internal.Execution;
-
-namespace eaapp_somee.utils
+﻿namespace eaapp_somee.utils
 {
     public static class CustomMethods
     {
@@ -50,6 +48,19 @@ namespace eaapp_somee.utils
                     default: throw new ArgumentException("Invalid attribute specified. Use 'text', 'value', or 'index'.");
                 }
             }
+        }
+
+        // Method to get all selected options from a multi-select dropdown
+        public static List<string> GetSelectedOptions(this IWebElement locator)
+        {
+            var options = new List<string>();
+            var selectElement = new SelectElement(locator);
+            var selectedOption = selectElement.AllSelectedOptions;
+            foreach (var option in selectedOption)
+            {
+                options.Add(option.Text);
+            }
+            return options;
         }
     }
 }

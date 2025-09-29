@@ -1,13 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ADragu\\source\\repos\\udemy\\Selenium with C#\\eaapp-somee-test\\eaapp-somee\\",
+  "WorkspaceRootPath": "C:\\Users\\aandr\\source\\repos\\eaapp-somee-test\\eaapp-somee\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{33ECD471-BF8B-4116-A0F7-B5182D371E18}|eaapp-somee.csproj|c:\\users\\adragu\\source\\repos\\udemy\\selenium with c#\\eaapp-somee-test\\eaapp-somee\\utils\\custommethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{33ECD471-BF8B-4116-A0F7-B5182D371E18}|eaapp-somee.csproj|c:\\users\\aandr\\source\\repos\\eaapp-somee-test\\eaapp-somee\\utils\\custommethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33ECD471-BF8B-4116-A0F7-B5182D371E18}|eaapp-somee.csproj|solutionrelative:utils\\custommethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33ECD471-BF8B-4116-A0F7-B5182D371E18}|eaapp-somee.csproj|c:\\users\\adragu\\source\\repos\\udemy\\selenium with c#\\eaapp-somee-test\\eaapp-somee\\tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{33ECD471-BF8B-4116-A0F7-B5182D371E18}|eaapp-somee.csproj|c:\\users\\aandr\\source\\repos\\eaapp-somee-test\\eaapp-somee\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33ECD471-BF8B-4116-A0F7-B5182D371E18}|eaapp-somee.csproj|solutionrelative:globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33ECD471-BF8B-4116-A0F7-B5182D371E18}|eaapp-somee.csproj|c:\\users\\aandr\\source\\repos\\eaapp-somee-test\\eaapp-somee\\tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33ECD471-BF8B-4116-A0F7-B5182D371E18}|eaapp-somee.csproj|solutionrelative:tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,6 +26,10 @@
           "Children": [
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
@@ -30,37 +38,44 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Tests.cs",
-              "DocumentMoniker": "C:\\Users\\ADragu\\source\\repos\\udemy\\Selenium with C#\\eaapp-somee-test\\eaapp-somee\\Tests.cs",
-              "RelativeDocumentMoniker": "Tests.cs",
-              "ToolTip": "C:\\Users\\ADragu\\source\\repos\\udemy\\Selenium with C#\\eaapp-somee-test\\eaapp-somee\\Tests.cs",
-              "RelativeToolTip": "Tests.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "C:\\Users\\aandr\\source\\repos\\eaapp-somee-test\\eaapp-somee\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "GlobalUsings.cs",
+              "ToolTip": "C:\\Users\\aandr\\source\\repos\\eaapp-somee-test\\eaapp-somee\\GlobalUsings.cs",
+              "RelativeToolTip": "GlobalUsings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T10:51:00.033Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-26T15:44:39.228Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "CustomMethods.cs",
-              "DocumentMoniker": "C:\\Users\\ADragu\\source\\repos\\udemy\\Selenium with C#\\eaapp-somee-test\\eaapp-somee\\utils\\CustomMethods.cs",
+              "DocumentMoniker": "C:\\Users\\aandr\\source\\repos\\eaapp-somee-test\\eaapp-somee\\utils\\CustomMethods.cs",
               "RelativeDocumentMoniker": "utils\\CustomMethods.cs",
-              "ToolTip": "C:\\Users\\ADragu\\source\\repos\\udemy\\Selenium with C#\\eaapp-somee-test\\eaapp-somee\\utils\\CustomMethods.cs",
+              "ToolTip": "C:\\Users\\aandr\\source\\repos\\eaapp-somee-test\\eaapp-somee\\utils\\CustomMethods.cs",
               "RelativeToolTip": "utils\\CustomMethods.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAuwBkAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAcwDkAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-25T10:46:38.626Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tests.cs",
+              "DocumentMoniker": "C:\\Users\\aandr\\source\\repos\\eaapp-somee-test\\eaapp-somee\\Tests.cs",
+              "RelativeDocumentMoniker": "Tests.cs",
+              "ToolTip": "C:\\Users\\aandr\\source\\repos\\eaapp-somee-test\\eaapp-somee\\Tests.cs",
+              "RelativeToolTip": "Tests.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAkwFIAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T10:51:00.033Z"
             }
           ]
         }
