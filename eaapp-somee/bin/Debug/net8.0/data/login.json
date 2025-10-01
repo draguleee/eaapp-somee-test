@@ -1,0 +1,43 @@
+[
+  {
+    "TestName": "Login_ValidCredentialsAdmin",
+    "UserName": "admin",
+    "Password": "password"
+  },
+  {
+    "TestName": "Login_ValidCredentialsUser",
+    "UserName": "happyuser",
+    "Password": "QxrmZw1Z!"
+  },
+  {
+    "TestName": "Login_InvalidUsername",
+    "UserName": "admin123",
+    "Password": "password"
+  },
+  {
+    "TestName": "Login_InvalidPassword",
+    "UserName": "admin",
+    "Password": "password123"
+  },
+  {
+    "TestName": "Login_InvalidCredentials",
+    "UserName": "admin123",
+    "Password": "password123"
+  },
+  {
+    "TestName": "Login_EmptyUsername",
+    "UserName": "",
+    "Password": "password"
+  },
+  {
+    "TestName": "Login_EmptyPassword",
+    "UserName": "admin",
+    "Password": ""
+  },
+  {
+    "TestName": "Login_EmptyCredentials",
+    "UserName": "",
+    "Password": ""
+  }
+]
+

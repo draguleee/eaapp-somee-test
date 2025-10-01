@@ -1,3 +1,4 @@
+global using eaapp_somee.pages;
 global using eaapp_somee.pages.components;
 global using OpenQA.Selenium;
 global using OpenQA.Selenium.Chrome;

@@ -11,12 +11,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="models\**" />
-    <EmbeddedResource Remove="models\**" />
-    <None Remove="models\**" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="coverlet.collector" Version="6.0.4">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -38,8 +32,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="pages\components\" />
-    <Folder Include="tests\" />
+    <None Update="data\login.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
