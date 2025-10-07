@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ADragu\\source\\repos\\udemy\\Selenium with C#\\eaapp-somee-test\\eaapp-somee\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{33ECD471-BF8B-4116-A0F7-B5182D371E18}|eaapp-somee.csproj|c:\\users\\adragu\\source\\repos\\udemy\\selenium with c#\\eaapp-somee-test\\eaapp-somee\\pages\\components\\header.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33ECD471-BF8B-4116-A0F7-B5182D371E18}|eaapp-somee.csproj|solutionrelative:pages\\components\\header.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{33ECD471-BF8B-4116-A0F7-B5182D371E18}|eaapp-somee.csproj|c:\\users\\adragu\\source\\repos\\udemy\\selenium with c#\\eaapp-somee-test\\eaapp-somee\\tests\\loginpagetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33ECD471-BF8B-4116-A0F7-B5182D371E18}|eaapp-somee.csproj|solutionrelative:tests\\loginpagetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33ECD471-BF8B-4116-A0F7-B5182D371E18}|eaapp-somee.csproj|c:\\users\\adragu\\source\\repos\\udemy\\selenium with c#\\eaapp-somee-test\\eaapp-somee\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33ECD471-BF8B-4116-A0F7-B5182D371E18}|eaapp-somee.csproj|solutionrelative:models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33ECD471-BF8B-4116-A0F7-B5182D371E18}|eaapp-somee.csproj|c:\\users\\adragu\\source\\repos\\udemy\\selenium with c#\\eaapp-somee-test\\eaapp-somee\\pages\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33ECD471-BF8B-4116-A0F7-B5182D371E18}|eaapp-somee.csproj|solutionrelative:pages\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33ECD471-BF8B-4116-A0F7-B5182D371E18}|eaapp-somee.csproj|c:\\users\\adragu\\source\\repos\\udemy\\selenium with c#\\eaapp-somee-test\\eaapp-somee\\data\\login.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{33ECD471-BF8B-4116-A0F7-B5182D371E18}|eaapp-somee.csproj|solutionrelative:data\\login.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33ECD471-BF8B-4116-A0F7-B5182D371E18}|eaapp-somee.csproj|c:\\users\\adragu\\source\\repos\\udemy\\selenium with c#\\eaapp-somee-test\\eaapp-somee\\tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33ECD471-BF8B-4116-A0F7-B5182D371E18}|eaapp-somee.csproj|solutionrelative:tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33ECD471-BF8B-4116-A0F7-B5182D371E18}|eaapp-somee.csproj|c:\\users\\adragu\\source\\repos\\udemy\\selenium with c#\\eaapp-somee-test\\eaapp-somee\\pages\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33ECD471-BF8B-4116-A0F7-B5182D371E18}|eaapp-somee.csproj|solutionrelative:pages\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +22,52 @@
       "DocumentGroups": [
         {
           "DockedWidth": 231,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "login.json",
+              "DocumentMoniker": "C:\\Users\\ADragu\\source\\repos\\udemy\\Selenium with C#\\eaapp-somee-test\\eaapp-somee\\data\\login.json",
+              "RelativeDocumentMoniker": "data\\login.json",
+              "ToolTip": "C:\\Users\\ADragu\\source\\repos\\udemy\\Selenium with C#\\eaapp-somee-test\\eaapp-somee\\data\\login.json",
+              "RelativeToolTip": "data\\login.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-06T07:24:19.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginPage.cs",
+              "DocumentMoniker": "C:\\Users\\ADragu\\source\\repos\\udemy\\Selenium with C#\\eaapp-somee-test\\eaapp-somee\\pages\\LoginPage.cs",
+              "RelativeDocumentMoniker": "pages\\LoginPage.cs",
+              "ToolTip": "C:\\Users\\ADragu\\source\\repos\\udemy\\Selenium with C#\\eaapp-somee-test\\eaapp-somee\\pages\\LoginPage.cs",
+              "RelativeToolTip": "pages\\LoginPage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T17:49:04.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginPageTests.cs",
+              "DocumentMoniker": "C:\\Users\\ADragu\\source\\repos\\udemy\\Selenium with C#\\eaapp-somee-test\\eaapp-somee\\tests\\LoginPageTests.cs",
+              "RelativeDocumentMoniker": "tests\\LoginPageTests.cs",
+              "ToolTip": "C:\\Users\\ADragu\\source\\repos\\udemy\\Selenium with C#\\eaapp-somee-test\\eaapp-somee\\tests\\LoginPageTests.cs",
+              "RelativeToolTip": "tests\\LoginPageTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T08:30:31.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Bookmark",
@@ -51,84 +80,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Header.cs",
-              "DocumentMoniker": "C:\\Users\\ADragu\\source\\repos\\udemy\\Selenium with C#\\eaapp-somee-test\\eaapp-somee\\pages\\components\\Header.cs",
-              "RelativeDocumentMoniker": "pages\\components\\Header.cs",
-              "ToolTip": "C:\\Users\\ADragu\\source\\repos\\udemy\\Selenium with C#\\eaapp-somee-test\\eaapp-somee\\pages\\components\\Header.cs",
-              "RelativeToolTip": "pages\\components\\Header.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T13:22:53.805Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoginPage.cs",
-              "DocumentMoniker": "C:\\Users\\ADragu\\source\\repos\\udemy\\Selenium with C#\\eaapp-somee-test\\eaapp-somee\\pages\\LoginPage.cs",
-              "RelativeDocumentMoniker": "pages\\LoginPage.cs",
-              "ToolTip": "C:\\Users\\ADragu\\source\\repos\\udemy\\Selenium with C#\\eaapp-somee-test\\eaapp-somee\\pages\\LoginPage.cs",
-              "RelativeToolTip": "pages\\LoginPage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAewBUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T13:21:32.243Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Tests.cs",
-              "DocumentMoniker": "C:\\Users\\ADragu\\source\\repos\\udemy\\Selenium with C#\\eaapp-somee-test\\eaapp-somee\\Tests.cs",
-              "RelativeDocumentMoniker": "Tests.cs",
-              "ToolTip": "C:\\Users\\ADragu\\source\\repos\\udemy\\Selenium with C#\\eaapp-somee-test\\eaapp-somee\\Tests.cs",
-              "RelativeToolTip": "Tests.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T12:32:00.459Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "login.json",
-              "DocumentMoniker": "C:\\Users\\ADragu\\source\\repos\\udemy\\Selenium with C#\\eaapp-somee-test\\eaapp-somee\\data\\login.json",
-              "RelativeDocumentMoniker": "data\\login.json",
-              "ToolTip": "C:\\Users\\ADragu\\source\\repos\\udemy\\Selenium with C#\\eaapp-somee-test\\eaapp-somee\\data\\login.json",
-              "RelativeToolTip": "data\\login.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-01T12:15:59.376Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginModel.cs",
-              "DocumentMoniker": "C:\\Users\\ADragu\\source\\repos\\udemy\\Selenium with C#\\eaapp-somee-test\\eaapp-somee\\models\\LoginModel.cs",
-              "RelativeDocumentMoniker": "models\\LoginModel.cs",
-              "ToolTip": "C:\\Users\\ADragu\\source\\repos\\udemy\\Selenium with C#\\eaapp-somee-test\\eaapp-somee\\models\\LoginModel.cs",
-              "RelativeToolTip": "models\\LoginModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T12:06:02.749Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginPageTests.cs",
-              "DocumentMoniker": "C:\\Users\\ADragu\\source\\repos\\udemy\\Selenium with C#\\eaapp-somee-test\\eaapp-somee\\tests\\LoginPageTests.cs",
-              "RelativeDocumentMoniker": "tests\\LoginPageTests.cs",
-              "ToolTip": "C:\\Users\\ADragu\\source\\repos\\udemy\\Selenium with C#\\eaapp-somee-test\\eaapp-somee\\tests\\LoginPageTests.cs",
-              "RelativeToolTip": "tests\\LoginPageTests.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAIwB4AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T08:30:31.614Z",
-              "EditorCaption": ""
             }
           ]
         }

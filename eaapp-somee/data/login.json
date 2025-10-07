@@ -6,8 +6,8 @@
   },
   {
     "TestName": "Login_ValidCredentialsUser",
-    "UserName": "happyuser",
-    "Password": "QxrmZw1Z!"
+    "UserName": "username",
+    "Password": "Password01!"
   },
   {
     "TestName": "Login_InvalidUsername",

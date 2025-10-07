@@ -20,6 +20,19 @@
           "lib/netstandard2.0/SeleniumExtras.WaitHelpers.dll": {}
         }
       },
+      "FluentAssertions/8.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/FluentAssertions.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/FluentAssertions.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Microsoft.ApplicationInsights/2.23.0": {
         "type": "package",
         "dependencies": {
@@ -863,6 +876,31 @@
         "lib/net40/SeleniumExtras.WaitHelpers.dll",
         "lib/net45/SeleniumExtras.WaitHelpers.dll",
         "lib/netstandard2.0/SeleniumExtras.WaitHelpers.dll"
+      ]
+    },
+    "FluentAssertions/8.7.0": {
+      "sha512": "h86TKCk6fS6Es6YPUtTUjekCeR1dSsdmD8dhdMy7RHLso/JH52QYU5W2Zw4wJJWGMzcEBMia8F70JctsbREvPA==",
+      "type": "package",
+      "path": "fluentassertions/8.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "FluentAssertions.png",
+        "LICENSE",
+        "fluentassertions.8.7.0.nupkg.sha512",
+        "fluentassertions.nuspec",
+        "lib/net47/FluentAssertions.dll",
+        "lib/net47/FluentAssertions.pdb",
+        "lib/net47/FluentAssertions.xml",
+        "lib/net6.0/FluentAssertions.dll",
+        "lib/net6.0/FluentAssertions.pdb",
+        "lib/net6.0/FluentAssertions.xml",
+        "lib/netstandard2.0/FluentAssertions.dll",
+        "lib/netstandard2.0/FluentAssertions.pdb",
+        "lib/netstandard2.0/FluentAssertions.xml",
+        "lib/netstandard2.1/FluentAssertions.dll",
+        "lib/netstandard2.1/FluentAssertions.pdb",
+        "lib/netstandard2.1/FluentAssertions.xml"
       ]
     },
     "Microsoft.ApplicationInsights/2.23.0": {
@@ -1916,6 +1954,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "DotNetSeleniumExtras.WaitHelpers >= 3.11.0",
+      "FluentAssertions >= 8.7.0",
       "Microsoft.NET.Test.Sdk >= 17.14.1",
       "NUnit >= 4.4.0",
       "NUnit.Analyzers >= 4.10.0",
@@ -1970,7 +2009,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -1979,6 +2018,10 @@
           "DotNetSeleniumExtras.WaitHelpers": {
             "target": "Package",
             "version": "[3.11.0, )"
+          },
+          "FluentAssertions": {
+            "target": "Package",
+            "version": "[8.7.0, )"
           },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
@@ -2029,7 +2072,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100-rc.1.25451.107/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
